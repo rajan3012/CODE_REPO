@@ -11,6 +11,7 @@ public class string_permutations
 	}
 	public static boolean permutations(String str1, String str2)
 	{
+		
 		if(str1.length() != str2.length())
 			return false;
 
